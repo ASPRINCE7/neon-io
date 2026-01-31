@@ -50,3 +50,28 @@ footer {
   font-size: 0.8rem;
   color: #555;
 }
+
+/* GAME SCREEN */
+.game-body {
+  margin: 0;
+  overflow: hidden;
+  background: #000;
+}
+
+#gameCanvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+
+.loading {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #00fff7;
+  font-size: 1.2rem;
+  background: rgba(0, 0, 0, 0.6);
+  pointer-events: none;
+}
